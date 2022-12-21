@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-Microsoft Teams - Export all phonenumbers to CSV
+Microsoft Teams - Export all assigned phonenumbers to CSV
 
 .Description
 This script will create an overview of all assigned phonenumbers in your Microsoft365 tenant and will export this to CSV.
