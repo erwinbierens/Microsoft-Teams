@@ -8,7 +8,7 @@ This will create an overview of all assigned phonenumbers in your Microsoft365 t
 A way to quickly check a phone number in your Microsft365 tenant. 
 
 
-# 🍿 Feedback or suggestions
+# 🍿 Issues, Feedback or suggestions
 Feel free to contact me if you have any issues, feedback or suggestions for scripts.
 
 📫 erwin @ bierens .it
