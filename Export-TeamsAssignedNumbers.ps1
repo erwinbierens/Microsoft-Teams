@@ -19,7 +19,7 @@ UPDATES:
 #>
 #Requires -Version 3.0
 
-Write-Host -ForegroundColor Cyan "[OK] Loading Script"
+Write-Host -ForegroundColor Cyan "[OK] Loading Script.."
 
 # you can change the output of the script to console or csv. 
 $OutputType = "CSV" #OPTIONS: CSV - Outputs CSV to specified FilePath, CONSOLE - Outputs to console
