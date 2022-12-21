@@ -7,4 +7,5 @@ This will create an overview of all assigned phonenumbers in your Microsoft365 t
 
 ## Search-PhoneNumber
 A way to quickly check a phone number in your Microsft365 tenant. 
-.EXAMPLE
+
+
