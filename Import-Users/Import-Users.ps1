@@ -50,9 +50,8 @@ catch [System.UnauthorizedAccessException] {
 
 Import-Csv $FilePath | ForEach-Object {
 
-    $user = Get-CsOnlineUser -Identity $_.SipAddress | Select-Object DisplayName, SipAddress, AssignedPlan, TeamsUpgradeEffectiveMode, HostingProvider, InterpretedUserType, EnterpriseVoiceEnabled, HostedVoicemail, OnPremLineURI, OnlineVoiceRoutingPolicy, VoicePolicy, MCOValidationError
     Write-Host -ForegroundColor green "****************************************"
-    Write-Host -ForegroundColor green "Starting Migration for user: $($user.DisplayName) "
+    Write-Host -ForegroundColor green "Starting Migration for user: $($_.SipAddress) "
 
 
     #Assign LineUri and EnterpriseVoice mode
