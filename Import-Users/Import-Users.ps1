@@ -69,7 +69,7 @@ Import-Csv $FilePath | ForEach-Object {
     catch {
         Write-Warning "Could not set Online Voice Routing Policy.. ($_)"
     }
-    Write-Host -ForegroundColor green "$($user.DisplayName) is migrated to Teams"
+    Write-Host -ForegroundColor green "$($_.SipAddress) is migrated to Teams"
     Write-Host -ForegroundColor green "****************************************"
 }
 
