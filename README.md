@@ -1,8 +1,8 @@
 # 💻 Microsoft Teams PowerShell Scripts
-Collection of various Microsoft Teams PowerShell scripts that perform specialized tasks mostly focused on Teams Calling
+Collection of various Microsoft Teams PowerShell scripts that perform specialized tasks mostly focused on Teams Calling.
 
 ### Import Users with Voice Capabilities
-This script will provision mulitple users with a LineUri and VoicePolicy in Microsoft Teams
+This script will provision mulitple users with a LineUri and VoicePolicy in Microsoft Teams.
 Make sure the CSV contains the following columns: SipAddress,LineUri,VoicePolicy 
 
 ### Export-TeamsAssignedNumbers
